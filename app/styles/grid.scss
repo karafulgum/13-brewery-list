@@ -1,11 +1,12 @@
 .grid {
   display: flex;
-  // margin: 0 auto;
+  flex-wrap: wrap;
+  min-width: 30rem;
 
   &__item {
     display: flex;
     flex-basis: calc(100% / 3 - 2rem);
-    // max-width: 15rem;
+    min-width: 15rem;
     margin: 1rem;
     padding: 0.5rem;
     background: $c-white;
