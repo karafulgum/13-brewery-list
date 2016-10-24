@@ -1,0 +1,16 @@
+.grid {
+  display: flex;
+
+  &__item {
+    flex-basis: calc(100% / 3 - 2rem);
+    margin: 1rem;
+    background: $c-white;
+
+    &--title {
+      font-weight: bold;
+    }
+    &--subtitle {
+      text-transform: uppercase;
+    }
+  }
+}

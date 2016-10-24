@@ -1,0 +1,9 @@
+.app {
+  &__container {
+    padding: 0 10rem;
+  }
+
+  &__content {
+    background: $c-black;
+  }
+}
