@@ -1,27 +1,31 @@
 .grid {
   display: flex;
+  // margin: 0 auto;
 
   &__item {
     display: flex;
     flex-basis: calc(100% / 3 - 2rem);
+    // max-width: 15rem;
     margin: 1rem;
     padding: 0.5rem;
     background: $c-white;
 
     &--title {
-      font-weight: bold;
       margin: 0;
+      font-weight: bold;
     }
 
     &--subtitle {
+      margin-top: 0.5rem;
+      margin-bottom: 0;
+      font-weight: normal;
       text-transform: uppercase;
-      margin: 0;
     }
   }
 
   &__info {
-    padding-left: 0.5rem;
     display: flex;
     flex-direction: column;
+    padding-left: 0.5rem;
   }
 }

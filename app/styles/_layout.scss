@@ -1,9 +1,10 @@
 .app {
   &__content {
-    background: $c-black;
-  }
+    margin: 0 -1rem;
 
-    &__container {
+    &--container {
       margin: 0 10rem;
     }
+
+  }
 }
