@@ -6,7 +6,6 @@ $c-white: #fff;
 @import 'font-awesome/scss/font-awesome';
 @import 'box-sizing';
 @import 'reset';
-
-.navbar {
-  background: $c-navbar;
-}
+@import 'layout';
+@import 'grid';
+@import 'navbar';

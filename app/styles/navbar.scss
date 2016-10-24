@@ -1,0 +1,14 @@
+.nav-bar {
+  background: $c-navbar;
+
+  &__container {
+    padding: 0 10rem;
+  }
+
+  &__title {
+    margin: 0;
+    font-size: 15px;
+    padding: 0.5rem 0;
+    font-weight: bold;
+  }
+}
