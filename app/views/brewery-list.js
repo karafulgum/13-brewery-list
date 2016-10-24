@@ -10,9 +10,9 @@ export default class BreweryView  {
       grid__item.innerHTML = `
       <div class="grid__info"></div>`;
 
-      grid__item.querySelector('')innerText = result.grid__info;
-      // grid__item.querySelector('')innerText = result.
-      // grid__item.querySelector('')innerText = result.
+      this.el.querySelector('.grid__item--title')innerText = this.data.name;
+      this.el.querySelector('.grid__item--img')innerText = this.data.images.icon;
+      this.el.querySelector('.grid__item--subtitile')innerText = this.data.established;
 
       this.el.appenChild(grid__item);
     });
